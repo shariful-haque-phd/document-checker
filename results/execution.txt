@@ -1,0 +1,27 @@
+$ python src/check_accessibility.py sample/page.html
+{
+  "issue_count": 5,
+  "issues": [
+    {
+      "type": "missing_language",
+      "detail": "<html> has no lang attribute."
+    },
+    {
+      "type": "missing_alt",
+      "detail": "Image #1 has no alt attribute."
+    },
+    {
+      "type": "heading_skip",
+      "detail": "Heading level jumps from h1 to h3: Contact"
+    },
+    {
+      "type": "vague_link_text",
+      "detail": "Link text \"click here\" lacks context."
+    },
+    {
+      "type": "unlabeled_control",
+      "detail": "input control may lack an accessible label."
+    }
+  ]
+}
+

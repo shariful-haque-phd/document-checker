@@ -1,0 +1,31 @@
+{
+  "project_id": 28,
+  "repo_name": "028-accessible-document-checker",
+  "title": "Accessible Document Checker",
+  "theme": "AI for Society & Industry",
+  "theme_id": "T08",
+  "level": 2,
+  "level_label": "Applied Intelligence",
+  "prototype_status": "research prototype",
+  "primary_description": "HTML accessibility screening",
+  "research_question_proposed": "Which accessibility issues can be detected automatically from static HTML alone?",
+  "sample_files": [
+    "sample/page.html"
+  ],
+  "source_modules": [
+    "src/check_accessibility.py"
+  ],
+  "commands_from_original_readme": [
+    "python src/check_accessibility.py sample/page.html"
+  ],
+  "docs": [
+    "README.md",
+    "docs/RESEARCH.md",
+    "docs/ARCHITECTURE.md",
+    "docs/DEMO.md",
+    "docs/RESULTS.md"
+  ],
+  "source_origin": "github-level2-20-projects(1).zip",
+  "execution_status": "verified_local_execution",
+  "evidence": "results/execution.json"
+}

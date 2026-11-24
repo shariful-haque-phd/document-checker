@@ -1,0 +1,23 @@
+{
+  "id": "028",
+  "status": "executed",
+  "commands": [
+    "python src/check_accessibility.py sample/page.html"
+  ],
+  "elapsed_seconds": 1.08,
+  "python": "3.13.5",
+  "inputs": [
+    {
+      "file": "sample/page.html",
+      "sha256": "b50b7b8795fe64135bfdd7e6781f03d3c6978e5e303f709b392ec2e1b9817709"
+    }
+  ],
+  "output_artifacts": [
+    {
+      "file": "results/execution.txt",
+      "sha256": "6d2316576a398ac664d69ce408095647f16e48b533036c88c3e6a2b13f36d223",
+      "bytes": 599
+    }
+  ],
+  "observations": "Local execution using bundled fixtures; not an external performance evaluation."
+}
